@@ -45,7 +45,7 @@ $(window).load(function(){
 		<label for="show-menu" class="show-menu">Show Menu</label>
 		<input type="checkbox" id="show-menu" role="button">
 		<ul id="menu">
-			<li><a href="about.php" title="">About</a></li><li><a href="websites.php" title="">Websites</a></li><li><a href="mobile.php" title="">Mobile</a></li><li><a href="lifestream.php" title="">Lifestream</a></li><li><a href="contact.php" title="">Contact</a></li>
+			<li><a href="about.php" title="">About</a></li><li><a href="websites.php" title="">Portfolio</a></li><!--<li><a href="mobile.php" title="">Mobile</a></li><li><a href="lifestream.php" title="">Lifestream</a></li>--><li><a href="contact.php" title="">Contact</a></li>
 		</ul>
 		</div><!--#header_bottom_right-->
 	</div><!--header-top-->
