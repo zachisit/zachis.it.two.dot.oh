@@ -25,8 +25,9 @@ h2 {font-size:24x;font-weight:500;}
 h3 {}
 ul {margin:0;padding:0;}
 ul li {list-style:none;display:inline;}
-.button, .button a {width:100px;background:#fe0dcb;color:white;border-radius:10px;height:30px;text-decoration:none;padding:10px 0;margin:20px auto 0 auto;text-align:center;}
-.button a:hover {color:#268CFF;}
+.button {margin:20px auto 0 auto;width:109px;}
+.button a {text-decoration:none;padding:5px 20px;text-align:center;width:100px;background:#fe0dcb;border-radius:5px;margin:0 auto;color:#fff;}
+.button a:hover {color:#fe0dcb;background:#075398;width:100%;border-radius:5px}
 .center {text-align:center;}
 .unbold {font-weight:normal;}
 
@@ -117,8 +118,7 @@ body {font-size:130%;}
 #content_right {width:100%;float:left;}
 #content_right h2 {text-align:center;}
 #cta_web_right {float:left;width:100%;padding:0 10px;}
-#cta_web_left {width:100%;padding:0 10p;}
-.button, .button a {width:100%;}
+#cta_web_left {width:100%;padding:0 10px;}
 img {max-width:100%}
 }
 @media all and (min-width: 320px) and (max-width: 798px) {
@@ -129,7 +129,6 @@ body {font-size:120%;}
 #content_right {width:100%;display:block;margin:2% 0;}
 #content_right h2 {text-align:center;}
 #cta_web_left {width:100%;padding:0 10p;float:left;margin:0;padding:0;background-size:100%}
-.button, .button a {width:100%;}
 img {max-width:100%}
 #header {width:100%;height:100%;display:block;}
 #header_left {width:100%;display:block;background-position:center;}
@@ -150,4 +149,6 @@ img {max-width:100%}
 #videoblockvideo {background-size:100%;max-height:191px;}
 #videoblock {height:169px;}
 #header_bottom_right {width:100%;}
+.button {width:100%;float:left;display:block;margin:20px 0 0 0;}
+.button a  {width:100%;margin:0;padding:0;float:left;display:block;}
 }
