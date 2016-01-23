@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!--[if lt IE 9]><center><h1>HI WHAT IS THE PAST LIKE?</h1></center><![endif]-->
 <html lang="en-US">
 <title>PHP Developer | WordPress Developer | Android and iOS Developer - Zachary Smith</title>
 <meta name="description" content="Zach Smith is an expert WordPress and PHP developer, equipped with the skills to finish Android and iOS mobile apps." />
