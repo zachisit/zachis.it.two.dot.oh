@@ -76,9 +76,9 @@ input[type=checkbox]:checked ~ #menu{display: block;}
 
 /*footer*/
 #footer {height:100%;width:100%;float:left;margin:20px 0;padding:10px 0;}
-#footer ul {margin:0 auto;width:351px;}
+#footer ul {margin:0 auto;width:165px;height:35px;padding:0;}
 #footer ul li {margin: 0 10px;list-style:none;float:left;}
-.footertext {text-align:center;font-size:11px;width:340px;margin:3px auto 0 auto;}
+.footertext {text-align:center;font-size:11px;width:100%;margin:3px auto 0 auto;clear:both;}
 
 /*websites page*/
 #mac {background: url(images/brow.png);height:547px;background-repeat: no-repeat;padding-top: 26px;}
@@ -125,10 +125,10 @@ img {max-width:100%}
 }
 @media all and (min-width: 320px) and (max-width: 798px) {
 body {font-size:120%;}
-#container {width:95%;margin:0 2%}
-#content_left {width:100%;display:block;font-size:140%;border-bottom:1px solid #999;padding:0 0 5% 0;}
+#container {width:100%;margin:0;}
+#content_left {width:100%;display:block;font-size:140%;margin-bottom:20px;}
 #content_left img {display:none;}
-#content_right {width:100%;display:block;margin:2% 0;}
+#content_right {width:90%;display:block;margin:20px auto 0 auto; float:none;}
 #content_right h2 {text-align:center;}
 #cta_web_left {width:100%;padding:0 10p;float:left;margin:0;padding:0;background-size:100%}
 img {max-width:100%}
@@ -140,20 +140,21 @@ img {max-width:100%}
 .show-menu {display:block;margin-top:10px;text-transform:uppercase;}
 #header_top {width:100%;display:block;height:100%;}
 #header_right {width:100%;display:block;text-align:center;}
-#cta_contact {width:100%;display:block;height:100%;padding:0 0 5% 0;}
-#cta_web {width:100%;display:block;height:100%;padding:0 0 5% 0;}
+#cta_contact {width:100%;display:block;height:100%;background:#278cff;color:white;font-size:1.3em;padding-bottom:25px;}
+#cta_web {width:100%;display:block;height:100%;padding:0 0 5% 0;border-bottom:0px;}
 #cta_web_left {width:100%;display:block;padding:0;margin:0;max-height:182px;}
 #cta_web_right {width:100%;display:block;float:left;margin:0;padding:0;}
 #footer {width:100%;display:block;}
-#footer ul {width:38%;margin:0 auto;height:138px;}
-#cta_contact_text {width:100%;display:block;}
+#footer ul {width:47%;margin:0 auto;height:auto;}
+#cta_contact_text {width:76%;display:block;}
 #videoblockvideo img, #cta_web_left img {width:100%;height:auto;}
 #videoblockvideo {background-size:100%;max-height:191px;}
-#videoblock {height:169px;}
+#videoblock {display:none;}
 #header_bottom_right {width:100%;}
 .button {width:100%;float:left;display:block;margin:20px 0 0 0;}
-.button a  {width:100%;margin:0;padding:0;float:left;display:block;}
+.button a  {width:100%;margin:0;padding:11px 0 0 0;float:left;display:block;font-size:1.3em;height:40px;}
 .websites_platforms_rows {width:100%;float:left;}
 .websites_platforms_block {width:47%;margin: 0 3px;padding:0}
 .drupal, .joomla, .zend , .magento, .cake, .codeig {display:none;}
-}
+.content_left_quote  {line-height:36px;text-align: center;color: white;background: #075398;padding: 49px 30px;font-size: 1.2em;}
+}/*end responsive */
