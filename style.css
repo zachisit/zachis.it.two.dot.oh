@@ -57,7 +57,12 @@ input[type=checkbox]:checked ~ #menu{display: block;}
 #content {width:100%;float:left;padding:10px 0 30px 0;margin-top:20px;border-bottom:1px solid #999;}
 #content_left {width:197px;float:left;color:#075398;font-size:25px;line-height:110%;font-family:Georgia,sans-serif;font-style:italic;margin:2% 0 0 4%;}
 #content_right {width:389px;float:right;margin:0 20px 0 0;line-height:160%;text-align:justify;}
-#contenttext {width:80%;text-align:center;margin:0 auto;line-height:160%;}
+#contenttext {width:100%;text-align:center;margin:0 auto;line-height:160%;}
+#contenttext_right {width:23%;float:right;margin-top:20px;}
+#contenttext_left {width:70%;float:left;}
+#contenttext_right h2 {font-size:16px;text-transform:uppercase;padding-bottom:1px;margin-bottom:10px;border-bottom:1px solid gray;margin:0;}
+#contenttext_right ul {list-style:none;}
+#contenttext_right ul li {text-align:right !important;}
 .zach-is {color: #278cff;font-weight: bold;}
 .zach-zach {color: #0d56a3;font-weight: bold;}
 .zach-it {color: #fe0dcb;font-weight: bold;}
@@ -138,8 +143,9 @@ img {max-width:100%}
 #header_bottom_right li {border-right:1px solid #999;border-left:1px solid #999;border-bottom:1px solid #999;border-radius:5px;margin:0;}
 #header_bottom_right ul li, li a {width: 100%;color:#ff0ec9;text-decoration:none;padding:5px 0}
 .show-menu {display:block;margin-top:10px;text-transform:uppercase;}
-#header_top {width:100%;display:block;height:100%;}
-#header_right {width:100%;display:block;text-align:center;}
+#header_top {width:100%;display:block;height: 61px;background: #278cff;}
+#header_right {display: none;}
+#header_bottom {display:none;}
 #cta_contact {width:100%;display:block;height:100%;background:#278cff;color:white;font-size:1.3em;padding-bottom:25px;}
 #cta_web {width:100%;display:block;height:100%;padding:0 0 5% 0;border-bottom:0px;}
 #cta_web_left {width:100%;display:block;padding:0;margin:0;max-height:182px;}
@@ -157,4 +163,5 @@ img {max-width:100%}
 .websites_platforms_block {width:47%;margin: 0 3px;padding:0}
 .drupal, .joomla, .zend , .magento, .cake, .codeig {display:none;}
 .content_left_quote  {line-height:36px;text-align: center;color: white;background: #075398;padding: 49px 30px;font-size: 1.2em;}
+#content {padding-top:1px;margin-top:1px;}
 }/*end responsive */

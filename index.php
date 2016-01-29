@@ -24,7 +24,6 @@
 		<div id="cta_contact">
 			<div id="cta_contact_text">Is your current developer not answering your calls or emails? Has it been "few days" since he last worked? Are you seeing simple tasks take days-or weeks-longer than needed? Tired of your programmer dropping the ball? <div class="button"><a href="contact.php" title="Contact Me">Talk Now</a></div><!--button--></div><!--cta-contact-text-->
 		</div><!--cta-contact-->
-<?php include 'footer.php' ?>
 	
 </div><!--container-->
 

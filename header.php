@@ -5,33 +5,77 @@
 <meta name="description" content="Zach Smith is an expert WordPress and PHP developer, equipped with the skills to finish Android and iOS mobile apps." />
 <meta name="keywords" content="PHP Developer, WordPress Developer, CakePHP expert, PHP programmer, WordPress Development, PHP Expert, Zachary Smith, freelance developer, freelance wordpress, freelance mobile developer, wordpress theme help, wordpress fix, louisville wordpress, louisville web development, louisville kentucky web development, website help" />
 <link rel="shortcut icon" href="images/favicon.ico" />
-<!--cdn call for jquery-->
+<!--vendor scripts-->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <script scr="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
-<!--js for website slideshow-->
 <script src="http://malsup.github.com/jquery.cycle2.js"></script>
 <!--font replacement -->
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,600&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-<!-- jquery/css for the modals -->
+<!--internal js-->
 <script src="js/jquery.modal.js" type="text/javascript" charset="utf-8"></script>
 <link rel="stylesheet" href="js/jquery.modal.css" type="text/css" media="screen" />
 
 <head>
 <!-- responsive declaration -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
-<!--TODO: put in seo title/meta etc here-->
-<!--onpage spinner loader -->
-<script type="text/javascript">
+<!--site css-->
+<link href="style.css" rel="stylesheet" type="text/css" media="all"  />
+<!--spinners - they don't stop -->
+<script type"text/javascript">
 $(window).load(function(){
     $('#cover').fadeOut(1000);
 });
 </script>
-
-</script>
-<!--site css-->
-<link href="style.css" rel="stylesheet" type="text/css" media="all"  />
 </head>
+<!--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	lulz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ _   _       _ _              ___  _    __   __                ______             
+| | | |     | | |            / _ \| |   \ \ / /                | ___ \            
+| |_| | ___ | | | ___ _ __  / /_\ \ |_   \ V /___  _   _ _ __  | |_/ / ___  _   _ 
+|  _  |/ _ \| | |/ _ \ '__| |  _  | __|   \ // _ \| | | | '__| | ___ \/ _ \| | | |
+| | | | (_) | | |  __/ |    | | | | |_    | | (_) | |_| | |    | |_/ / (_) | |_| |
+\_| |_/\___/|_|_|\___|_|    \_| |_/\__|   \_/\___/ \__,_|_|    \____/ \___/ \__, |
+                                                                             __/ |
+                                                                            |___/
+
+@shsout out to kiwi
+@shout out to the taters
+-->
 <body>
 
 <div id="cover"></div>
